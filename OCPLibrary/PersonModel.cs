@@ -10,5 +10,8 @@ namespace OCPLibrary
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
+        // Enums
+        //public EmployeeType TypeOfEmployee { get; set; } = EmployeeType.Staff;  // UNOD to keep OCP
     }
 }

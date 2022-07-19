@@ -14,8 +14,8 @@ namespace ConsoleUI
             List<PersonModel> applicants = new List<PersonModel>
             {
                 new PersonModel { FirstName = "T'Pol", LastName = "Vulcaness" },
-                new PersonModel { FirstName = "Seven", LastName = "Of Nine" },
-                new PersonModel { FirstName = "Nurse", LastName = "Chapel" }
+                new PersonModel { FirstName = "Seven", LastName = "OfNine"},  // UNDO to keep OCP , TypeOfEmployee = EmployeeType.Manager 
+                new PersonModel { FirstName = "Nurse", LastName = "Chapel"}  // ,  TypeOfEmployee = EmployeeType.Executive 
             };
 
             List<EmployeeModel> employees = new List<EmployeeModel>();
